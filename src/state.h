@@ -4,7 +4,7 @@
 #include "zlib.h"
 #include "SDL.h"
 //#include <stdbool.h>
-#if 0
+#if 1
 typedef enum ST_MODULE_TYPE {
     ST_68k=0,
     ST_Z80,

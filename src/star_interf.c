@@ -36,6 +36,7 @@
 #include "pd4990a.h"
 #include "state.h"
 #include "debug.h"
+#include "gnutil.h"
 
 
 
@@ -190,7 +191,7 @@ void cpu_68k_init(void)
 	pretend_programfetch[1].offset =
 	    (Uintptr) memory.rom.cpu_m68k.p + 0x100000 - 0x200000;
     }
-    cpu_68k_init_save_state();
+    //cpu_68k_init_save_state();
 }
 
 int cpu_68k_run(Uint32 nb_cycle)

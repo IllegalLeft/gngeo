@@ -7,6 +7,7 @@
 #include "SDL.h"
 #include "../screen.h"
 #include "../video.h"
+#include "../gnutil.h"
 
 extern void Init_2xSaIMMX(Uint32 bitformat);
 extern void _2xSaILine(Uint8 *srcPtr, Uint8 *deltaPtr, Uint32 srcPitch, Uint32 width,

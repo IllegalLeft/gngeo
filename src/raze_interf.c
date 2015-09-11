@@ -144,7 +144,7 @@ void cpu_z80_init(void)
 
 /*    z80_set_fetch_callback(&debug);*/
 
-    cpu_z80_init_save_state();
+    //cpu_z80_init_save_state();
 
     z80_reset();
 }
