@@ -1,5 +1,16 @@
 # Configure
-configure.log
+autom4te.cache/
+config.h
+config.log
+config.status
+.deps/
+Makefile
+stamp-h1
 
 # Compiled files
 *.o
+*.asmu
+*.asm
+*.incu
+*.regu
+src/star/mkstar
