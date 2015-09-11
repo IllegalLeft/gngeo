@@ -1,0 +1,5 @@
+# Configure
+configure.log
+
+# Compiled files
+*.o
